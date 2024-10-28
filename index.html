@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Gallery</title>
+    <!-- Link to Google Fonts for the "Pacifico" font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <style>
         body {
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
             margin: 0;
             background-color: #f5f5f5;
             font-family: Arial, sans-serif;
+        }
+        .title {
+            font-family: 'Pacifico', cursive;
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
         }
         .photo-container {
             display: flex;
@@ -32,6 +41,9 @@
     </style>
 </head>
 <body>
+    <!-- Title at the top -->
+    <div class="title">Arch & Xean</div>
+    <!-- Centered photo container -->
     <div class="photo-container">
         <img src="photo.jpg" alt="Your Picture">
     </div>
